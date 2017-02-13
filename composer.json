@@ -1,0 +1,20 @@
+{
+  "name": "movingimage/data-provider",
+  "description": "Library that defines an interface for all data provider implementations to implement.",
+  "type": "library",
+  "license": "Proprietary",
+  "authors": [
+    {
+      "name": "Ruben Knol",
+      "email": "ruben.knol@movingimage.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "MovingImage\\DataProvider": "lib/"
+    }
+  }
+}
