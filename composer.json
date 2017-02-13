@@ -14,7 +14,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "MovingImage\\DataProvider": "lib/"
+      "MovingImage\\DataProvider\\": "lib/"
     }
   }
 }
