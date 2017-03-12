@@ -17,4 +17,12 @@ interface DataProviderInterface
      * @return mixed
      */
     public function getData(array $options);
+
+    /**
+     * Get the count of how many videos getData would yield.
+     *
+     * @param array $options
+     * @return int
+     */
+    public function getCount(array $options);
 }
