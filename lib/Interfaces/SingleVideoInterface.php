@@ -6,7 +6,7 @@ use MovingImage\Meta\Interfaces\EmbedCodeInterface;
 use MovingImage\Meta\Interfaces\VideoInterface;
 
 /**
- * Interface SingleVideoInterface
+ * Interface SingleVideoInterface.
  *
  * @author Ruben Knol <ruben.knol@movingimage.com>
  */
