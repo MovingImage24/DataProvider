@@ -21,7 +21,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "movingimage/video-manager-meta": "^1.1"
+    "movingimage/video-manager-meta": "^1.2"
   },
   "autoload": {
     "psr-4": {
