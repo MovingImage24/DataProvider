@@ -2,6 +2,8 @@
 
 namespace MovingImage\DataProvider\Interfaces;
 
+use MovingImage\DataProvider\Wrapper\Video;
+
 /**
  * Interface DataProviderInterface.
  *
@@ -17,7 +19,7 @@ interface DataProviderInterface
      *
      * @return mixed
      */
-    public function getData(array $options);
+    public function getAll(array $options);
 
     /**
      * Get the count of how many videos getData would yield.
@@ -27,4 +29,14 @@ interface DataProviderInterface
      * @return int
      */
     public function getCount(array $options);
+
+    /**
+     * Get a single Video, which wraps both the Video entity and
+     * the EmbedCode into a single object.
+     *
+     * @param array $options
+     *
+     * @return Video
+     */
+    public function getOne(array $options);
 }
