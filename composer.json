@@ -20,10 +20,15 @@
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "require": {},
+  "require": {
+    "movingimage/video-manager-meta": "^1.1"
+  },
   "autoload": {
     "psr-4": {
       "MovingImage\\DataProvider\\": "lib/"
     }
+  },
+  "require-dev": {
+    "movingimage/style-checker": "dev-master"
   }
 }
