@@ -1,25 +1,26 @@
 {
-  "name": "movingimage/data-provider",
-  "description": "Library that defines an interface for all data provider implementations to implement.",
-  "type": "library",
-  "license": "Proprietary",
-  "authors": [
-    {
-      "name": "Ruben Knol",
-      "email": "ruben.knol@movingimage.com"
+    "name": "movingimage/data-provider",
+    "description": "Library that defines an interface for all data provider implementations to implement.",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Movingimage",
+            "email": "developer@movingimage.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2",
+        "movingimage/video-manager-meta": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MovingImage\\DataProvider\\": "lib/"
+        }
+    },
+    "require-dev": {
+        "movingimage/style-checker": "dev-master"
     }
-  ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "require": {
-    "movingimage/video-manager-meta": "dev-master"
-  },
-  "autoload": {
-    "psr-4": {
-      "MovingImage\\DataProvider\\": "lib/"
-    }
-  },
-  "require-dev": {
-    "movingimage/style-checker": "dev-master"
-  }
 }
