@@ -13,7 +13,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.2",
-        "movingimage/video-manager-meta": "^3.0"
+        "movingimage/video-manager-meta": "^3.2"
     },
     "autoload": {
         "psr-4": {
