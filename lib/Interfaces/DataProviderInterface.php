@@ -3,16 +3,15 @@
 namespace MovingImage\DataProvider\Interfaces;
 
 use MovingImage\DataProvider\Wrapper\Video;
+use Doctrine\Common\Collections\Collection;
 
 interface DataProviderInterface
 {
     /**
      * Retrieve a Doctrine collection object containing videos that
      * match the criteria defined in the options.
-     *
-     * @return mixed
      */
-    public function getAll(array $options);
+    public function getAll(array $options): Collection;
 
     /**
      * Get the count of how many videos getData would yield.
