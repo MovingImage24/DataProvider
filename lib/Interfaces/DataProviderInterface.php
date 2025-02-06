@@ -9,8 +9,6 @@ interface DataProviderInterface
     /**
      * Retrieve a Doctrine collection object containing videos that
      * match the criteria defined in the options.
-     *
-     * @return mixed
      */
     public function getAll(array $options);
 

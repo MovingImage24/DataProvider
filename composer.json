@@ -12,8 +12,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.2",
-        "movingimage/video-manager-meta": "^3.2"
+        "php": "^8.4",
+        "movingimage/video-manager-meta": "3.3.0"
     },
     "autoload": {
         "psr-4": {
